@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edittext_bg_line"
+    android:orientation="vertical"
+    android:id="@+id/time_linear"
+    android:layout_margin="@dimen/tiny_padding"
+    android:layout_centerInParent="true">
+<TextView
+    android:id="@+id/time_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:textSize="@dimen/more_small_text_size"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"></TextView>
+    <TextView
+        android:id="@+id/t_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/more_small_text_size"
+        android:layout_below="@+id/time_tv"
+        android:layout_centerHorizontal="true"></TextView>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transblack_rounded_bg"
+        android:orientation="vertical"
+        android:id="@+id/front_linear"
+        android:layout_margin="@dimen/tiny_padding"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/booked_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="@dimen/more_small_text_size"
+            android:text="@string/booked"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"></TextView>
+
+    </RelativeLayout>
+</RelativeLayout>

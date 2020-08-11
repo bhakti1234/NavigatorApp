@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_text_size">15sp</dimen>
+    <dimen name="normal_text_size">20sp</dimen>
+    <dimen name="standard_padding">10dp</dimen>
+    <dimen name="large_padding">20dp</dimen>
+    <dimen name="standard_corner_radius">8dp</dimen>
+    <dimen name="tiny_padding">2dp</dimen>
+    <dimen name="imageview_width">100dp</dimen>
+    <dimen name="imageview_height">100dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="more_small_text_size">10sp</dimen>
+</resources>

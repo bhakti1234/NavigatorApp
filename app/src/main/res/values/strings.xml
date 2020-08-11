@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">NavigatorApp</string>
+    <string name="signin">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="mname">Middle Name</string>
+    <string name="birthdate">BirthDate</string>
+    <string name="contact">Contact No</string>
+    <string name="ssn">SSN (Last 4 Digit)</string>
+    <string name="add1">Address1</string>
+    <string name="add2">Address2</string>
+    <string name="city">City</string>
+    <string name="state">Select State</string>
+    <string name="zipcode">Zipcode</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="notdisclosed">Not Disclosed</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="dropincenter">Drop-In Center</string>
+    <string name="dropinsearchtext">Search By Name, City, Zipcode</string>
+    <string name="navigator_details">Navigator Details</string>
+    <string name="booked">Booked</string>
+    <string-array name="morning">
+        10:30 AM,
+        10:40 AM,
+        10:50 AM,
+        11:00 AM,
+        11:10 AM,
+        11:20 AM,
+        11:30 AM,
+        11:40 AM,
+        11:50 AM,
+        12:00 PM
+    </string-array>
+
+    <string-array name="afternoon">
+        12:10 PM,
+        12:20 PM,
+        12:30 PM,
+        12:40 PM,
+        12:50 PM,
+        01:00 PM,
+        01:10 PM,
+        01:20 PM,
+        01:30 PM,
+        01:40 PM,
+        01:50 PM,
+        02:00 PM,
+        02:10 PM,
+        02:20 PM
+    </string-array>
+
+    <string-array name="evening">
+        05:30 PM,
+        05:40 PM,
+        05:50 PM,
+        06:00 PM,
+        06:10 PM,
+        06:20 PM,
+        06:30 PM,
+        06:40 PM,
+        06:50 PM,
+        07:00 PM,
+        07:10 PM,
+        07:20 PM,
+        07:30 PM,
+        07:40 PM,
+        07:50 PM,
+        08:00 PM
+    </string-array>
+
+    <string-array name="night">
+        08:10 PM,
+        08:20 PM,
+        08:30 PM,
+        08:40 PM,
+        08:50 PM,
+        09:00 PM,
+        09:10 PM,
+        09:20 PM
+    </string-array>
+    <string-array name="time">
+        Morning,
+        Afternoon,
+        Evening,
+        Night
+    </string-array>
+</resources>
